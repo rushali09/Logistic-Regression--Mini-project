@@ -16,7 +16,9 @@ example, if we have two features x1, x2, model calculates
 Sigmoid function: 
   To convert this linear combination into a probability, we apply sigmoid function which   takes any real-valued number and quanshes into a range between 0 and 1. This is why   
   logistic regression is used for predicting probabilities
-  P= 1/ 1+ e^ (-z) 
+      
+      P= 1/ 1+ e^ (-z) 
+
 Thresholding:
    p> 0.5 , we classify the instance belonging to class 1
    p<0.5, we classify the instance belonging to class 0
