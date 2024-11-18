@@ -13,17 +13,22 @@ example, if we have two features x1, x2, model calculates
   b is the bias term 
   x1 and x2 are input features
 
-2. Sigmoid function: To convert this linear combination into a probability, we apply sigmoid function which takes any real-valued number and quanshes into a range between 0 and 1. This is why logistic regression is used for predicting probabilities
+Sigmoid function: 
+  To convert this linear combination into a probability, we apply sigmoid function which   takes any real-valued number and quanshes into a range between 0 and 1. This is why   
+  logistic regression is used for predicting probabilities
 
     P= 1/ 1+ e^ (-z)
-3. Thresholding:
+Thresholding:
    p> 0.5 , we classify the instance belonging to class 1
    p<0.5, we classify the instance belonging to class 0
 
-4. Training the model(optimization)
+Training the model(optimization)
 
-To find the best value for w1 and b, logistic regression uses a process called optimization. 
+  To find the best value for w1 and b, logistic regression uses a process called       
+  optimization. 
 
-5. Model Predictions: Once the model has been trained (found the best weights), it can be used to make predictions on the unseen data. 
+Model Predictions
+  Once the model has been trained (found the best weights), it can be used to make 
+  predictions on the unseen data. 
 
 I have attached the code and dataset in this repository for references. This mini-project is a part of my Machine learning journey to help me understand the basics and implement my knowledge at the same time.
